@@ -22,6 +22,7 @@ app.use(cors())
 
 
 app.get("/v1/check", (req,res)=>{
+    console.log("api is hitted")
     res.send("The serer is running properly")
 })
 
